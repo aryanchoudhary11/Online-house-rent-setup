@@ -1,4 +1,4 @@
-# 🏠 Airbnb Clone – Home Listing Web App
+# 🏠 Home Listing Web App
 
 A simple full-stack Node.js and Express.js web application that allows users to **view** and **register homes**, similar to Airbnb. The app supports image URLs, pricing, location, and highlights active links in the navigation bar using EJS logic.
 
