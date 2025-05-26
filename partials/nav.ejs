@@ -1,0 +1,20 @@
+<header class="bg-red-500 shadow-md">
+  <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-16">
+      <div class="flex items-center space-x-6">
+        <a
+          href="/"
+          class="px-3 py-2 rounded-md text-lg font-semibold transition duration-200 <%= currentPath === '/' ? 'bg-red-300 text-red-900' : 'text-white hover:text-gray-200' %>"
+        >
+          Home
+        </a>
+        <a
+          href="/host/add-home"
+          class="px-3 py-2 rounded-md text-lg font-semibold transition duration-200 <%= currentPath === '/host/add-home' ? 'bg-red-300 text-red-900' : 'text-white hover:text-gray-200' %>"
+        >
+          Add Home
+        </a>
+      </div>
+    </div>
+  </nav>
+</header>
